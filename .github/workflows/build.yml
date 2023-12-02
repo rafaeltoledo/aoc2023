@@ -18,7 +18,13 @@ jobs:
         with:
           distribution: 'temurin'
           java-version: '17'
-          cache: 'gradle'
 
       - name: Run tests
-        run: ./gradlew test
+        run: ./gradlew test --no-daemon
+
+      - name: Upload tests
+        if: always()
+        uses: actions/upload-artifact@v3
+        with:
+          name: 'tests'
+          path: ./build/reports/tests/**
