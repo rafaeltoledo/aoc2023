@@ -2,6 +2,8 @@
 
 Repositório com as minhas soluções escritas em Kotlin.
 
+![Build](https://github.com/rafaeltoledo/aoc2023/workflows/build/badge.svg)
+
 🇧🇷 Estou postando as descrições traduzidas dos problemas [aqui](https://gist.github.com/rafaeltoledo/ae2d8fb0f9481e569c9e1d06aaa73142), caso tenha interesse
 
 Licença
